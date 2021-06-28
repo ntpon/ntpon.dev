@@ -1,2 +1,2 @@
-# art0254.io
+# art0254.me
 Personal website running on NextJs, React, and Node.js.
