@@ -1,0 +1,25 @@
+.post {
+  margin-bottom: 5px;
+}
+
+.post a {
+  color: var(--heading-color);
+}
+
+.content {
+  padding: var(--size-4);
+}
+
+.content h3 {
+  margin: var(--size-2) 0;
+  font-size: var(--size-6);
+}
+
+.content time {
+  color: var(--light-font-color);
+}
+
+.content p {
+  line-height: var(--size-6);
+  color: var(--font-color);
+}

@@ -15,10 +15,13 @@ body {
   --size-16: 4rem;
   --size-20: 5rem;
   --size-40: 10rem;
+
+  --light-font-color: #d6d9de;
+  --heading-color: #343a40;
+  --font-color: #495057;
   --navbar-color: #1b1d25;
   --light-background: #f1f4f8;
   margin: 0;
-  background-color: var(--light-background);
   font-family: 'Roboto', sans-serif;
 }
 
