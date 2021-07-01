@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Roboto&family=Source+Sans+Pro:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Thasadith:wght@400;700&display=swap');
 * {
   box-sizing: border-box;
 }
@@ -22,13 +22,13 @@ body {
   --navbar-color: #1b1d25;
   --light-background: #f1f4f8;
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Thasadith', 'Roboto', sans-serif;
 }
 
 h1,
 h2,
 h3 {
-  font-family: 'Oswald', 'Roboto', sans-serif;
+  font-family: 'Thasadith', 'Roboto', sans-serif;
 }
 
 a {
