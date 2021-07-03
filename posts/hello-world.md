@@ -7,3 +7,5 @@ isFeatured: true
 ---
 
 ## สวัสดีครับ นี้คือโพสแรกของผมเองครับ
+
+![](getting-started-nextjs.png)
