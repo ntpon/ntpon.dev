@@ -28,6 +28,10 @@ function PostContent(props) {
               width={500}
               height={300}
               layout="responsive"
+              placeholder="blur"
+              blurDataURL={encodeURI(
+                `/images/posts/${post.slug}/${image.properties.src}`
+              )}
             />
           </div>
         );
