@@ -1,6 +1,6 @@
 import { Fragment } from 'react';
 import Head from 'next/head';
-
+import Hero from '../../components/shared/hero';
 import PostContent from '../../components/posts/post-detail/post-content';
 import { getPostData, getPostsFiles } from '../../lib/posts-util';
 function PostDetailPage(props) {
@@ -10,6 +10,7 @@ function PostDetailPage(props) {
         <title>{props.post.title}</title>
         <meta name="description" content={props.post.excerpt} />
       </Head>
+      <Hero title={props.post.title} content={props.post.excerpt} />
       <PostContent post={props.post} />
     </Fragment>
   );

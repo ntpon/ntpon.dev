@@ -12,16 +12,6 @@ function PostContent(props) {
   const imagePath = `/images/posts/${post.slug}/${post.image}`;
 
   const customRenderers = {
-    // img(image) {
-    //   return (
-    //     <Image
-    //       src={`/images/posts/${post.slug}/${image.src}`}
-    //       alt={image.alt}
-    //       width={600}
-    //       height={300}
-    //     />
-    //   );
-    // },
     p(paragraph) {
       const { node } = paragraph;
 
@@ -33,8 +23,9 @@ function PostContent(props) {
             <Image
               src={`/images/posts/${post.slug}/${image.properties.src}`}
               alt={image.alt}
-              width={600}
+              width={500}
               height={300}
+              layout="responsive"
             />
           </div>
         );
@@ -56,7 +47,6 @@ function PostContent(props) {
 
   return (
     <article className={classes.content}>
-      <PostHeader title={post.title} image={imagePath} />
       <ReactMarkdown components={customRenderers}>{post.content}</ReactMarkdown>
     </article>
   );

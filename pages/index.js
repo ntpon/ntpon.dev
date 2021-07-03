@@ -13,7 +13,7 @@ function HomePage(props) {
           content="I post about programming and web development"
         />
       </Head>
-      <Hero />
+      <Hero title="Home. 😎" />
       <FeaturedPosts posts={props.posts} />
     </>
   );

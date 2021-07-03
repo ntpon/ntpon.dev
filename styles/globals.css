@@ -18,9 +18,11 @@ body {
 
   --light-font-color: #d6d9de;
   --heading-color: #343a40;
+  --yellow-orange: #fdba3a;
   --font-color: #495057;
   --navbar-color: #1b1d25;
   --light-background: #f1f4f8;
+
   margin: 0;
   font-family: 'Thasadith', 'Roboto', sans-serif;
 }

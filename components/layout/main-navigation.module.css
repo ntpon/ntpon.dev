@@ -17,20 +17,26 @@
 }
 
 .header li {
-  margin: 0 var(--size-4);
+  margin: 0 var(--size-1);
 }
 
 .header a {
   color: white;
   font-size: var(--size-4);
+  padding: 1rem 1.25rem;
+  background: #2d2d31;
 }
 
 .header a:hover,
 .header a:active,
 .header a.active {
-  color: var(--color-grey-200);
+  background: var(--yellow-orange);
+  color: var(--navbar-color);
 }
 
+.brand {
+  background: transparent !important;
+}
 @media (min-width: 768px) {
   .header ul {
     gap: 0.5rem;

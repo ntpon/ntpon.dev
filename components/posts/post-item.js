@@ -3,7 +3,7 @@ import Image from 'next/image';
 import classes from './post-item.module.css';
 function PostItem(props) {
   const { title, image, excerpt, date, slug } = props.post;
-  const formattedDate = new Date(date).toLocaleDateString('en-US', {
+  const formattedDate = new Date(date).toLocaleDateString('th-TH', {
     day: 'numeric',
     month: 'long',
     year: 'numeric',
