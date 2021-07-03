@@ -21,7 +21,9 @@ function PostContent(props) {
         return (
           <div className={classes.image}>
             <Image
-              src={`/images/posts/${post.slug}/${image.properties.src}`}
+              src={encodeURI(
+                `/images/posts/${post.slug}/${image.properties.src}`
+              )}
               alt={image.alt}
               width={500}
               height={300}
