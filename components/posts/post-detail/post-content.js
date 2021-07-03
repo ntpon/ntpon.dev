@@ -21,7 +21,6 @@ function PostContent(props) {
         return (
           <div className={classes.image}>
             <Image
-              onLoad={() => this.setState({ loaded: true })}
               src={encodeURI(
                 `/images/posts/${post.slug}/${image.properties.src}`
               )}
