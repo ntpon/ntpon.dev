@@ -1,0 +1,30 @@
+import Head from 'next/head';
+import Footer from './Footer';
+import Hero from './Hero';
+import Navigation from './Navigation';
+export default function Layout({ title, keywords, description, children }) {
+  return (
+    <>
+      <Head>
+        <title>{title}</title>
+        <meta name="keywords" content={keywords} />
+        <meta name="description" content={description} />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+      </Head>
+      <main>
+        <Navigation />
+        {children}
+        <Footer />
+      </main>
+    </>
+  );
+}
+
+Layout.defaultProps = {
+  title: 'ntpon',
+  keywords:
+    'development, coding, programming, เขียนโปรแกรม, ฝึกเขียนโปรแกรม, สร้างเว็บ',
+  description:
+    'ntpon - เป็นเว็บไซต์บันทึกการเรียนรู้ทางการเขียนโปรแกรม แบ่งปันความรู้ในด้าน Coding',
+};

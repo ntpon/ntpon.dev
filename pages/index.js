@@ -1,31 +1,29 @@
-import Head from 'next/head';
-import Hero from '../components/shared/hero';
-import FeaturedPosts from '../components/home-page/featured-posts';
-import { getFeaturedPosts } from '../lib/posts-util';
-
-function HomePage(props) {
+import Layout from '../components/Layout';
+import Container from '../components/Container';
+import Hero from '../components/Hero';
+import ArticleHeader from '../components/ArticleHeader';
+import ArticleList from '../components/ArticleList';
+import { getPosts } from '../lib/posts';
+export default function HomePage({ posts }) {
   return (
-    <>
-      <Head>
-        <title>art0254</title>
-        <meta
-          name="description"
-          content="I post about programming and web development"
+    <Layout>
+      <Hero title="Hello World 😎" />
+      <Container>
+        <ArticleHeader
+          titlePrimary="บทความประจำปี 2565"
+          titleSecondary="วันที่"
         />
-      </Head>
-      <Hero title="Home. 😎" />
-      <FeaturedPosts posts={props.posts} />
-    </>
+        <ArticleList posts={posts} />
+      </Container>
+    </Layout>
   );
 }
 
 export function getStaticProps() {
-  const featuredPosts = getFeaturedPosts();
+  const posts = getPosts();
   return {
     props: {
-      posts: featuredPosts,
+      posts,
     },
   };
 }
-
-export default HomePage;
