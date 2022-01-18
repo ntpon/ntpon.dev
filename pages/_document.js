@@ -1,5 +1,6 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document';
 import { GA_TRACKING_ID } from '../lib/gtag';
+import NextNprogress from 'nextjs-progressbar';
 
 class MyDocument extends Document {
   render() {
