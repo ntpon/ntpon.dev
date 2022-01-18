@@ -6,7 +6,7 @@ import ArticleList from '../../components/ArticleList';
 import { getPosts } from '../../lib/posts';
 export default function BlogPage({ posts }) {
   return (
-    <Layout>
+    <Layout title="Articles">
       <Hero
         title="บทความ"
         text="บันทึกการเรียนรู้ สรุปการเรียนและบทช่วยสอนทางทางด้านการเขียนโปรแกรม"

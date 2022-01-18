@@ -6,7 +6,10 @@ export default function Layout({ title, keywords, description, children }) {
   return (
     <>
       <Head>
-        <title>{title}</title>
+        <title>
+          {title}
+          {title !== 'NTPON' ? ' | NTPON' : ''}
+        </title>
         <meta name="keywords" content={keywords} />
         <meta name="description" content={description} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -22,9 +25,9 @@ export default function Layout({ title, keywords, description, children }) {
 }
 
 Layout.defaultProps = {
-  title: 'ntpon',
+  title: 'NTPON',
   keywords:
     'development, coding, programming, เขียนโปรแกรม, ฝึกเขียนโปรแกรม, สร้างเว็บ',
   description:
-    'ntpon - เป็นเว็บไซต์บันทึกการเรียนรู้ทางการเขียนโปรแกรม แบ่งปันความรู้ในด้าน Coding',
+    'NTPON - เป็นเว็บไซต์บันทึกการเรียนรู้ทางการเขียนโปรแกรม แบ่งปันความรู้ในด้าน Coding',
 };

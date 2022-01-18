@@ -7,7 +7,7 @@ import { getDateFull } from '../../utils';
 
 export default function PostDetailPage({ post }) {
   return (
-    <Layout>
+    <Layout title={post.data.title}>
       <Hero title={post.data.title} text={getDateFull(post.data.date)} />
       <Container>
         <ArticleDetail post={post.content} />
