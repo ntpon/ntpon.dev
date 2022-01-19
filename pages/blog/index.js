@@ -9,7 +9,7 @@ export default function BlogPage({ posts }) {
     <Layout title="Articles">
       <Hero
         title="บทความ"
-        text="บันทึกการเรียนรู้ สรุปการเรียนและบทช่วยสอนทางทางด้านการเขียนโปรแกรม"
+        text="บันทึกการเรียนรู้ สรุปการเรียนและบทช่วยสอนทางด้านการเขียนโปรแกรม"
       />
       <Container>
         <ArticleHeader
