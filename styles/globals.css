@@ -190,6 +190,8 @@ main {
   width: 100%;
   margin: auto;
   object-fit: contain;
+  background-color: rgb(29, 31, 33);
+  padding: 15px !important;
 }
 
 @media (max-width: 1000px) {

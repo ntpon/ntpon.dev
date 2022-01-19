@@ -10,14 +10,13 @@ export default function ArticleDetail({ post }) {
 
       if (node.children[0].tagName === 'img') {
         const image = node.children[0];
-        // console.log(`/images/posts/${image.properties.src}`);
         return (
           <div className="image">
             <Image
               src={encodeURI(`/images/posts/${image.properties.src}`)}
               alt={image.alt}
-              width={500}
-              height={300}
+              width={1000}
+              height={500}
               layout="responsive"
               placeholder="blur"
               blurDataURL={encodeURI(`/images/posts/${image.properties.src}`)}
