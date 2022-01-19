@@ -192,6 +192,7 @@ main {
   object-fit: contain;
   background-color: rgb(29, 31, 33);
   padding: 15px !important;
+  border-radius: 15px;
 }
 
 @media (max-width: 1000px) {
