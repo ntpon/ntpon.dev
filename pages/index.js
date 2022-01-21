@@ -10,7 +10,7 @@ export default function HomePage({ posts }) {
       <Hero title="Hello World 😎" />
       <Container>
         <ArticleHeader
-          titlePrimary="บทความประจำปี 2565"
+          titlePrimary="บทความเด่นประจำปี 2565"
           titleSecondary="วันที่"
         />
         <ArticleList posts={posts} />
@@ -20,7 +20,7 @@ export default function HomePage({ posts }) {
 }
 
 export function getStaticProps() {
-  const posts = getPosts();
+  const posts = getPosts().filter((post) => post.content.isShowHome);
   return {
     props: {
       posts,

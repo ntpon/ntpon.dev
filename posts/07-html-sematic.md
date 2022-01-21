@@ -1,6 +1,6 @@
 ---
 title: 'HTML พื้นฐาน PART-7: HTML เชิงความหมาย (HTML Sematic)'
-date: 'Jan 24, 2022'
+date: 'Jan 23, 2022'
 category: 'HTML'
 isActive: true
 ---

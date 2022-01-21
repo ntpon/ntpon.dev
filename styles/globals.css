@@ -208,6 +208,12 @@ blockquote {
 .image {
   margin-top: 10px;
 }
+article a {
+  font-weight: bold;
+}
+article a:hover {
+  border-bottom: 2px solid var(--primary);
+}
 
 @media (max-width: 1000px) {
   .container {

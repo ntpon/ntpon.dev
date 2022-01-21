@@ -2,12 +2,12 @@ import ReactMarkdown from 'react-markdown';
 import Image from 'next/image';
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { atomDark } from 'react-syntax-highlighter/dist/cjs/styles/prism';
+import Link from 'next/link';
 
 export default function ArticleDetail({ post }) {
   const customRenderers = {
     p(paragraph) {
       const { node } = paragraph;
-
       if (node.children[0].tagName === 'img') {
         const image = node.children[0];
         return (
@@ -36,6 +36,9 @@ export default function ArticleDetail({ post }) {
           {children}
         </SyntaxHighlighter>
       );
+    },
+    a(link) {
+      return <Link href={link.href}>{link.children[0]}</Link>;
     },
   };
   return (
