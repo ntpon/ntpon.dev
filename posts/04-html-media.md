@@ -169,3 +169,7 @@ HTML 5 นำเสนอทางเลือกในการเล่นไ�
 
 - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video
 - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video
+
+# เอกสารอ้างอิง
+
+- Jon Duckett (2011), HTML and CSS: Design and Build Websites.

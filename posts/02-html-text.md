@@ -157,3 +157,8 @@ HTML Entities เป็นชิ้นส่วนของข้อความ
 
 - ทดลองเขียนรายการสูตรอาหารเพื่อแสดงผลลัพท์ตามตัวอย่าง
 - ทดลองเขียนข้อความ copyright เพื่อแสดงผลลัพท์ตามตัวอย่าง
+
+# เอกสารอ้างอิง
+
+- Jon Duckett (2011), HTML and CSS: Design and Build Websites.
+- Lewis Coulson, Brett Jephson, Rob Larsen, Matt Park, Marian Zburlea (2019), The HTML and CSS Workshop.

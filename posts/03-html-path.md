@@ -188,3 +188,8 @@ URL ย่อมาจาก Uniform Resource Locator หมายถึงต�
   </nav>
 </body>
 ```
+
+# เอกสารอ้างอิง
+
+- Jon Duckett (2011), HTML and CSS: Design and Build Websites.
+- Lewis Coulson, Brett Jephson, Rob Larsen, Matt Park, Marian Zburlea (2019), The HTML and CSS Workshop.

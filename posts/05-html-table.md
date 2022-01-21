@@ -200,3 +200,7 @@ isActive: true
 
 - ทำตารางสอนด้วย table
 - ทำตารางสูตรคูณ แม่ 2-4 ด้วย table
+
+# เอกสารอ้างอิง
+
+- Jon Duckett (2011), HTML and CSS: Design and Build Websites.
