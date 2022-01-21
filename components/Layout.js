@@ -13,6 +13,7 @@ export default function Layout({ title, keywords, description, children }) {
         <meta name="keywords" content={keywords} />
         <meta name="description" content={description} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta property="og:image" content="/images/preview.png" />
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
       </Head>
       <main>
