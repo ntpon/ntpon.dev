@@ -1,5 +1,5 @@
 ---
-title: 'HTML พื้นฐาน PART-4: การใส่สื่อ Media (รูปภาพ, วีดีโอ, เสียง) ใน HTML'
+title: 'HTML พื้นฐาน PART-4: Media แสดงข้อมูลที่เป็นสื่อ รูปภาพ วีดีโอและเสียง'
 date: 'Jan 21, 2022'
 category: 'HTML'
 isActive: true

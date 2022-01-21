@@ -1,8 +1,8 @@
 ---
-title: 'HTML พื้นฐาน PART-2: Element สำหรับปรับแต่งข้อความ'
-date: 'May 5, 2021'
+title: 'HTML พื้นฐาน PART-6: From สร้างฟอร์มรับข้อมูล'
+date: 'Jan 23, 2022'
 category: 'HTML'
-isActive: false
+isActive: true
 ---
 
 # สารบัญ

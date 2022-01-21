@@ -1,27 +1,9 @@
 ---
-title: 'HTML พื้นฐาน PART-5: Table ตารางใน HTML'
+title: 'HTML พื้นฐาน PART-5: Table แสดงผลข้อมูลในรูปแบบตาราง'
 date: 'Jan 22, 2022'
 category: 'HTML'
 isActive: true
 ---
-
-# สารบัญ
-
-- ## Table พื้นฐาน
-
-  - \<table>
-  - \<tr>
-  - \<td>
-
-- ## Table เพิ่มเติม
-
-  - \<theade>
-  - \<tbody>
-  - \<tfoot>
-
-- ## colspan and rowspan
-
-- ## แบบฝึกหัด
 
 # Table VS Text
 
