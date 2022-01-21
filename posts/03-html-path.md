@@ -1,6 +1,6 @@
 ---
 title: 'HTML พื้นฐาน PART-3: Path และการเชื่อมโยงเว็บไซต์'
-date: 'Jun 19, 2022'
+date: 'Jan 19, 2022'
 category: 'HTML'
 isActive: true
 ---

@@ -1,6 +1,6 @@
 ---
 title: 'HTML พื้นฐาน PART-1: ความหมายของ HTML และการใช้งานเบื้องต้น'
-date: 'Jun 12, 2022'
+date: 'Jan 12, 2022'
 category: 'HTML'
 isActive: true
 ---

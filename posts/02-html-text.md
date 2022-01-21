@@ -1,6 +1,6 @@
 ---
 title: 'HTML พื้นฐาน PART-2: Element สำหรับปรับแต่งข้อความ'
-date: 'Jun 13, 2022'
+date: 'Jan 13, 2022'
 category: 'HTML'
 isActive: true
 ---
