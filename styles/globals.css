@@ -214,6 +214,9 @@ article a {
 article a:hover {
   border-bottom: 2px solid var(--primary);
 }
+ul {
+  overflow-y: auto;
+}
 
 @media (max-width: 1000px) {
   .container {
