@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.art0254.me
+
+# Sitemaps
+Sitemap: https://www.art0254.me/sitemap.xml
