@@ -359,6 +359,10 @@ p {
 
 ด้านบนจะเรียงจากสำคัญมากไปหาสำคัญน้อย
 
+# แนะนำเกมสำหรับฝึก CSS Selector
+
+- https://flukeout.github.io/
+
 # อ้างอิง
 
 - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors
