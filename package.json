@@ -2,7 +2,7 @@
   "name": "art0254.me",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 3333",
     "build": "next build && next export",
     "start": "next start",
     "lint": "next lint",
