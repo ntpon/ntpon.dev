@@ -1,7 +1,7 @@
 ---
-title: 'สรุปบทเรียน HTML พื้นฐาน'
-date: 'Jan 25, 2022'
-category: 'HTML'
+title: "สรุปบทเรียน HTML พื้นฐาน"
+date: "Jan 25, 2022"
+category: "HTML"
 isActive: true
 isShowHome: true
 ---
